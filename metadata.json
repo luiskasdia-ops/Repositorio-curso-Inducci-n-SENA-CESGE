@@ -1,0 +1,6 @@
+{
+  "name": "SENA Inducción Institucional",
+  "description": "Plataforma interactiva de inducción y seguimiento para aprendices SENA sobre normatividad, imagen institucional y bienestar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

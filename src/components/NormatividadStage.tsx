@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { CheckCircle2, AlertCircle } from 'lucide-react';
 import { NORMATIVIDAD_CASES } from '../data/senaData';
+import normatividadVisual from '../assets/images/sena_normatividad_visual_1794325196211.jpg';
 
 type NormTab = 'derechos' | 'deberes' | 'casos';
 
@@ -49,7 +50,7 @@ export function NormatividadStage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-5 bg-slate-50 border border-slate-200 rounded-xl overflow-hidden">
               <img
-                src="/src/assets/images/sena_normatividad_visual_1794325196211.jpg"
+                src={normatividadVisual}
                 alt="Aprendices SENA en taller revisando normativa en tableta digital"
                 referrerPolicy="no-referrer"
                 className="w-full h-64 object-cover"

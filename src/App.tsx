@@ -10,6 +10,7 @@ import { NormatividadStage } from './components/NormatividadStage';
 import { InteractiveQuiz } from './components/InteractiveQuiz';
 import { SeguimientoDashboard } from './components/SeguimientoDashboard';
 import { LandingPage, ApprenticeRegistrationData } from './components/LandingPage';
+import senaCampusHero from './assets/images/sena_campus_hero_1794325196344.jpg';
 
 type ViewMode = 'landing' | 'aprendiz' | 'seguimiento';
 
@@ -275,7 +276,7 @@ export default function App() {
 
               <div className="lg:col-span-5 bg-slate-100 border border-slate-200 rounded-xl overflow-hidden min-h-[240px]">
                 <img
-                  src="/src/assets/images/sena_campus_hero_1794325196344.jpg"
+                  src={senaCampusHero}
                   alt="Aprendices SENA colaborando en el patio del centro de formación"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -473,7 +474,7 @@ export default function App() {
                 autoPlay
                 playsInline
                 className="w-full aspect-video rounded-lg bg-black"
-                poster="/src/assets/images/sena_campus_hero_1794325196344.jpg"
+                poster={senaCampusHero}
               >
                 <source src="/assets/aistudio/2026__17_17_af6b744b.mp4" type="video/mp4" />
                 Tu navegador no soporta la reproducción de video HTML5.

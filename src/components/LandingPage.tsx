@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { GraduationCap, ClipboardCheck, ArrowRight, ArrowLeft } from 'lucide-react';
 import { ApprenticeRecord } from '../data/senaData';
+import senaCampusHero from '../assets/images/sena_campus_hero_1794325196344.jpg';
 
 export interface ApprenticeRegistrationData {
   name: string;
@@ -100,7 +101,7 @@ export function LandingPage({
 
         <div className="lg:col-span-5 bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden min-h-[260px]">
           <img
-            src="/src/assets/images/sena_campus_hero_1794325196344.jpg"
+            src={senaCampusHero}
             alt="Aprendices SENA colaborando en el patio del centro de formación"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
